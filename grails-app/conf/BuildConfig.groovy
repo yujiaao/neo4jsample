@@ -39,6 +39,8 @@ grails.project.dependency.resolution = {
 
     repositories {
         inherits true
+        
+        mavenRepo 'http://dev.issll.com/artifactory/repo/'
 
         grailsPlugins()
         grailsHome()
